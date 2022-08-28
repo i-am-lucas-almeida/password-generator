@@ -1,0 +1,30 @@
+/*@import '../styles/variables.css';*/
+
+:root {
+    --red: #F64A4A;
+    --orange: #FB7C58;
+    --yellow: #F8CD65;
+    --neon-green: #A4FFAF;
+    --light-white: #E6E5EA;
+    --grey: #817D92;
+    --dark-grey: #24232C;
+    --very-dark-grey: #18171F;
+    --font: "JetBrains Mono", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--very-dark-grey);
+    color: #E6E5EA;
+    font-size: 1.6rem;
+    font-family: var(--font);
+}
