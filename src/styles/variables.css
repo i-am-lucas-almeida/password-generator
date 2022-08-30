@@ -10,4 +10,10 @@
     --dark-grey: #24232C;
     --very-dark-grey: #18171F;
     --font: "JetBrains Mono", sans-serif;
+
+    --toastify-color-light: var(--dark-grey) !important;
+    --toastify-color-success: var(--neon-green) !important;
+    --toastify-color-info: var(--yellow) !important;
+    --toastify-font-family: var(--font) !important;
+    --toastify-text-color-light: var(--light-white) !important;
 }
