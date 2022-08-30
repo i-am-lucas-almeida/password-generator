@@ -1,0 +1,26 @@
+@import '../../styles/variables.css';
+
+.container {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container>p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.password__input {
+    background-color: white;
+    color: var(--very-dark-grey);
+    width: 7rem;
+    padding: .5rem 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    text-align: right;
+}

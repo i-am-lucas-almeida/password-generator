@@ -1,0 +1,44 @@
+@import '../../styles/variables.css';
+
+.password__screen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 2rem 3rem !important;
+    background-color: var(--dark-grey);
+}
+
+.password__screen>p {
+    max-width: 38rem;
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    font-weight: 600;
+    cursor: default;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.disable {
+    color: var(--light-white);
+    opacity: .3;
+}
+
+.active {
+    color: var(--light-white);
+    opacity: 1;
+}
+
+.copy__button {
+    background-color: transparent;
+    border: none;
+    font-size: 2.8rem;
+    color: var(--neon-green);
+    cursor: pointer;
+}
+
+.copy__button:hover {
+    color: var(--light-white);
+}
