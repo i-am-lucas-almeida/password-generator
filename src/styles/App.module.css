@@ -1,0 +1,58 @@
+@import './variables.css';
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 50rem;
+}
+
+@media(max-width: 600px) {
+
+    .container {
+        transform: scale(.8);
+    }
+
+}
+
+.container>h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--grey);
+}
+
+.container__content {
+    width: 100%;
+}
+
+.container__content>div {
+    background-color: var(--dark-grey);
+    padding: 3rem;
+}
+
+.generate__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: var(--neon-green);
+    color: var(--dark-grey);
+    font-family: inherit;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: 1.5px solid var(--neon-green);
+    cursor: pointer;
+    outline: none;
+    transition: .3s ease;
+}
+
+.generate__button>span {
+    padding-right: 1rem;
+}
+
+.generate__button:hover {
+    background-color: var(--dark-grey);
+    color: var(--neon-green);
+}
